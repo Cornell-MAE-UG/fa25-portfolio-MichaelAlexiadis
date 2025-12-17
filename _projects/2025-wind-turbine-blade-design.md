@@ -1,6 +1,7 @@
 ---
 layout: project
 title: Wind Turbine Blade Design Project
+technologies used: Fusion, Python
 image: /assets/images/blade_image.png
 render_with_liquid: true
 ---
@@ -25,11 +26,11 @@ I contributed to the aerodynamic modeling and optimization workflow, including s
 ## Figures
 Representative figures from the project are shown below.
 
-![Design and Optimization Workflow](/fa25-portfolio-MichaelAlexiadis/assets/images/optimization_workflow.jpg)
+![Design and Optimization Workflow](/assets/images/optimizer_workflow.png)
 
-![Final Blade CAD Geometry](/fa25-portfolio-MichaelAlexiadis/assets/images/blade_cad.jpg)
+![Final Blade CAD Geometry](/assets/images/blade_cad.png)
 
-![Measured Power vs. RPM](/fa25-portfolio-MichaelAlexiadis/assets/images/power_curves.jpg)
+![Measured Power vs. RPM](/assets/images/power_curves.png)
 
 
 
