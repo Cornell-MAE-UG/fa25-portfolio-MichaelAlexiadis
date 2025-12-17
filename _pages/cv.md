@@ -1,6 +1,6 @@
 ---
 layout: default
-title: <Your Name> - Curriculum Vitae
+title: Michael Alexiadis - CV
 permalink: /cv/
 ---
 ## Curriculum Vitae
@@ -8,63 +8,73 @@ permalink: /cv/
 [Download my CV]({{ "/assets/CV.pdf" | relative_url }}) in PDF format.
 
 
-**Email:** [netID@cornell.edu](mailto:netID@cornell.edu) | | | **Phone:** +123 456 7890
+**Email:** [netID@cornell.edu](mailto:maa372@cornell.edu) | | | **Phone:** +631 358 1250
 
 ---
 
 #### Objective
-Aspiring engineering student with a strong foundation in.... Passionate about ... and eager to apply my knowledge in real-world applications.
+Aspiring mechanical engineering student with a strong foundation in hands-on hardware development, instrumentation, and system integration. Passionate about space instrumentation, scientific hardware, and reliability-focused engineering, and eager to apply design, testing, and analysis skills in real-world aerospace and research environments.
 
 ---
 
 #### Education
 - **Cornell University**  
-  *Bachelor of Science in Mechanical and Aerospace Engineering*  
-  GPA: 3.8/4.0 | Graduation: Month, Year
+  *Bachelor of Science in Mechanical Engineering*  
+  GPA: 3.0/4.0 | Anticipated Graduation: May 2026
 
-- **[High School Name]**  
-  *High School Diploma*  
-  Graduation: [Month, Year]
-
+- **West Babylon Senior High School**
+  *High School Diploma*
+  Graduation: June 2022
 ---
 
 #### Skills
-- **Software:** Autodesk Fusion 360, SolidWorks, ANSYS  
-- **Programming:** Python, MATLAB  
-- **Tools:** 3D Printing, Laser Cutting  
+- **CAD & Simulation:** Autodesk Inventor, Fusion 360, ANSYS  
+- **Programming & Analysis:** Python, MATLAB, MATLAB Simulink  
+- **Computer Vision:** OpenCV, Cognex, Basler Pylon  
+- **Manufacturing & Prototyping:** Mill, Lathe, 3D Printing, CO₂ Laser Engraving  
+- **Version Control:** Git, GitHub  
 
 ---
 
 #### Projects
-- **[Project Title]**:  
-  *[Short Description]*  
-  - Key Achievement 1  
-  - Key Achievement 2  
+- **Cornell Mars Rover Project – Astrotech Subteam**  
+  *Design and integration of mechanical and sensing systems for a field-deployed robotic rover*  
+  - Designed and fabricated mechanical components including auger-based soil collection hardware  
+  - Integrated cameras and environmental sensors (CO₂, humidity, temperature) with mechanical structures  
+  - Supported system testing, troubleshooting, and interdisciplinary integration with electrical and software teams  
 
-- **[Project Title]**:  
-  *[Short Description]*  
-  - Key Achievement 1  
-  - Key Achievement 2  
+- **Automated Vision-Based Inspection System**  
+  *Development of a camera-based inspection workflow for quality control*  
+  - Built inspection pipelines using industrial cameras and computer vision tools  
+  - Evaluated hardware quality and consistency through image-based analysis  
+  - Supported production workflows by identifying defects and improving inspection repeatability  
 
 ---
 
 #### Work Experience
-- **[Company Name] - Intern**  
-  [Month, Year] - [Month, Year]  
-  - Responsibility 1  
-  - Responsibility 2  
+- **Havoly – Production Associate / QC Intern**  
+  June 2025 – August 2025  
+  - Supported manufacturing and quality-control operations for precision products  
+  - Assisted with inspection workflows and development of automated vision-based inspection tools  
+  - Worked with industrial cameras, laser engraving systems, and production documentation  
+
+- **Space Imaging & Optical Systems Laboratory – Undergraduate Researcher**  
+  September 2024 – December 2024  
+  - Built MATLAB and Python tools for orbit modeling and visualization  
+  - Analyzed simulation datasets to support space systems research  
+  - Collaborated with graduate researchers on thrust-efficient orbit design  
 
 ---
 
 #### Achievements & Certifications
-- [Certification Name], [Issuing Organization], [Year]  
-- [Achievement Name], [Competition/Event], [Year]  
+- Eagle Scout, Boy Scouts of America  
+- NASA L’SPACE Mission Concept Academy – Workforce Development Mentee  
 
 ---
 
 #### Extracurricular Activities
-- Member of [Club/Organization Name]  
-- Volunteer for [Event/Organization Name]  
+- Big Red Marching Band – Show Committee  
+- Cornell Assistive Technologies – Volunteer  
 
 ---
 
