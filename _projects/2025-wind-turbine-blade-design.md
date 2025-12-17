@@ -2,6 +2,7 @@
 layout: project
 title: Wind Turbine Blade Design Project
 image: /assets/images/blade_image.png
+render_with_liquid: true
 ---
 
 # Wind Turbine Blade Design Project
