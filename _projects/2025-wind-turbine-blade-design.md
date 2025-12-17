@@ -25,14 +25,11 @@ I contributed to the aerodynamic modeling and optimization workflow, including s
 ## Figures
 Representative figures from the project are shown below.
 
-<img src="{{ '/assets/optimizer_workflow.png' | relative_url }}" 
-     alt="Design and Optimization Workflow" width="550"/>
+![Design an Optimization Workflow]({{ "/assets/images/optimization_workflow.jpg" | relative_url }}){: .inline-image-l}
 
-<img src="{{ '/assets/blade_cad.png' | relative_url }}" 
-     alt="Final Blade CAD Geometry" width="550"/>
+![Final Blade CAD Geometry]({{ "/assets/images/blade_cad.jpg" | relative_url }}){: .inline-image-l}
 
-<img src="{{ '/assets/power_curves.png' | relative_url }}" 
-     alt="Measured Power vs RPM at Multiple Wind Speeds" width="550"/>
+![Measured Power vs. RPM at Multiple Wind Speeds]({{ "/assets/images/power_curves.jpg" | relative_url }}){: .inline-image-l}
 
 
 
