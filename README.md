@@ -214,9 +214,7 @@ Follow the theme's installation and customization instructions as needed to fit 
 You can comment out a bit of text or an image by using the `{% comment %}` command:
 
 ```ruby
-{% comment %}
-    Stuff you want to comment out.
-{% endcomment %}
+
 ```
 
 ### Changing the text width
