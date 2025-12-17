@@ -1,7 +1,7 @@
 ---
 layout: project
 title: Wind Turbine Blade Design Project
-image: /assets/images/function-graph.png
+image: /assets/images/blade_image.png
 ---
 
 # Wind Turbine Blade Design Project
