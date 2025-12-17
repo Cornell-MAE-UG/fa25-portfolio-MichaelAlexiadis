@@ -13,7 +13,7 @@ title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : Michael Alexiadis
 description              : Michael Alexiadis - Projects and CV 
-baseurl                  : /fall-2025-portfolio-Alexiadis/
+baseurl                  : /fa-25-portfolio-MichaelAlexiadis/
 
 # Theme and Style
 theme: jekyll-theme-minimal
