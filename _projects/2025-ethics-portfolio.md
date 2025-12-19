@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: default
 title: Ethics Portfolio
 image: /assets/images/boeing_737_max.png
 render_with_liquid: true
