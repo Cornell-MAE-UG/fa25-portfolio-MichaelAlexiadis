@@ -32,6 +32,9 @@ To enable control-oriented analysis, we:
 
 This approach preserved the physical intuition of the problem while enabling linear systems analysis near the operating point.
 
+![Design and Optimization Workflow]({{ "/assets/images/drag_force.png" | relative_url }})
+![Design and Optimization Workflow]({{ "/assets/images/dwdt.png" | relative_url }})
+
 ---
 
 ## State-Space Representation
@@ -41,6 +44,8 @@ After linearization, the system was expressed in state-space form, with:
 - **Output:** velocity deviation  
 
 This representation allowed us to analyze system stability through eigenvalues and provided a foundation for controller design.
+
+![Design and Optimization Workflow]({{ "/assets/images/space_state_model.png" | relative_url }})
 
 ---
 
