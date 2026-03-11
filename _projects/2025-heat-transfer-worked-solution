@@ -1,0 +1,227 @@
+---
+layout: default
+title: Heat Transfer Portfolio
+---
+
+# Thin Film Heater Thermal Analysis
+
+## Problem Statement
+
+A thin film heater is sandwiched between a thermally insulating wall and a L = 10 cm thick plastic layer with thermal conductivity k = 1 W/(m·K). The exterior surface of the plastic layer is exposed to coolant at T∞ = 20°C with heat transfer coefficient h = 100 W/(m²·K). The system operates at steady state, and thermal radiation is negligible.
+
+**(a)** When the heat flux is q" = 1000 W/m², calculate the temperature at the heater surface (x = 0) and the exterior surface (x = L).
+
+**(b)** To avoid overheating, the heater temperature cannot exceed 200°C. Calculate the maximum heat flux that can be provided without exceeding this limit.
+
+**(c)** Discuss three strategies that enable the heater to operate at higher heat flux without exceeding 200°C.
+
+---
+
+## Solution
+
+### Part (a): Temperature Distribution
+
+**Given:**
+- Heat flux: q" = 1000 W/m²
+- Plastic thickness: L = 0.1 m
+- Thermal conductivity: k = 1 W/(m·K)
+- Heat transfer coefficient: h = 100 W/(m²·K)
+- Coolant temperature: T∞ = 20°C
+
+**Thermal Resistance Analysis:**
+
+The system can be modeled as two thermal resistances in series:
+
+Conduction resistance (per unit area):
+```
+R"_cond = L/k = 0.1 m / 1 W/(m·K) = 0.1 m²·K/W
+```
+
+Convection resistance (per unit area):
+```
+R"_conv = 1/h = 1 / 100 W/(m²·K) = 0.01 m²·K/W
+```
+
+Total thermal resistance:
+```
+R"_total = R"_cond + R"_conv = 0.1 + 0.01 = 0.11 m²·K/W
+```
+
+**Key insight:** Conduction through plastic accounts for 90.9% of total resistance, convection only 9.1%.
+
+**Heater surface temperature (x = 0):**
+```
+q" = (T₀ - T∞) / R"_total
+
+T₀ = T∞ + q" × R"_total
+T₀ = 20°C + (1000 W/m²)(0.11 m²·K/W)
+T₀ = 20 + 110 = 130°C
+```
+
+**Exterior surface temperature (x = L):**
+```
+q" = h(T_L - T∞)
+
+T_L = T∞ + q"/h
+T_L = 20°C + 1000/100
+T_L = 30°C
+```
+
+**Verification using Fourier's law:**
+```
+q" = k(T₀ - T_L)/L = 1 × (130 - 30)/0.1 = 1000 W/m² ✓
+```
+
+**Answer:** T₀ = **130°C**, T_L = **30°C**
+
+---
+
+### Part (b): Maximum Heat Flux
+
+**Constraint:** T₀,max = 200°C
+
+Using the thermal resistance network:
+```
+q"_max = (T₀,max - T∞) / R"_total
+q"_max = (200 - 20) / 0.11
+q"_max = 180 / 0.11
+q"_max = 1636 W/m²
+```
+
+**Verification:**
+- Surface temperature: T_L = 20 + 1636/100 = 36.4°C
+- Heater temperature: T₀ = 36.4 + (1636 × 0.1)/1 = 200°C ✓
+
+**Answer:** q"_max = **1636 W/m²** (64% increase over baseline)
+
+---
+
+### Part (c): Optimization Strategies
+
+Since conduction resistance dominates (91% of total), optimization should target the plastic layer properties.
+
+#### Strategy 1: Reduce Plastic Thickness
+
+**Design change:** L = 2 cm instead of 10 cm
+
+New resistances:
+```
+R"_cond = 0.02/1 = 0.02 m²·K/W
+R"_total = 0.02 + 0.01 = 0.03 m²·K/W
+```
+
+Maximum heat flux:
+```
+q"_max = 180/0.03 = 6000 W/m²
+```
+
+**Improvement:** 267% increase (3.67× baseline)
+
+**Trade-offs:**
+- ✅ Simple design modification
+- ✅ Significant performance gain
+- ❌ May compromise structural integrity
+- ❌ Electrical insulation requirements may limit minimum thickness
+
+---
+
+#### Strategy 2: Higher Thermal Conductivity Material
+
+**Design change:** k = 5 W/(m·K) instead of 1 W/(m·K), keeping L = 10 cm
+
+New resistances:
+```
+R"_cond = 0.1/5 = 0.02 m²·K/W
+R"_total = 0.02 + 0.01 = 0.03 m²·K/W
+```
+
+Maximum heat flux:
+```
+q"_max = 180/0.03 = 6000 W/m²
+```
+
+**Improvement:** 267% increase (3.67× baseline)
+
+**Material options:**
+- Thermally conductive polymers
+- Ceramic-filled plastics
+- Aluminum oxide composites
+
+**Trade-offs:**
+- ✅ Maintains structural thickness
+- ✅ Better heat distribution
+- ❌ Higher material cost
+- ❌ Must maintain electrical insulation properties
+
+---
+
+#### Strategy 3: Enhanced Convective Cooling
+
+**Design change:** h = 500 W/(m²·K) instead of 100 W/(m²·K)
+
+New resistances:
+```
+R"_conv = 1/500 = 0.002 m²·K/W
+R"_total = 0.1 + 0.002 = 0.102 m²·K/W
+```
+
+Maximum heat flux:
+```
+q"_max = 180/0.102 = 1765 W/m²
+```
+
+**Improvement:** Only 8% increase (1.08× baseline)
+
+**Enhancement methods:**
+- Increased coolant flow velocity
+- Turbulence promoters
+- Better coolant fluid (water vs. air)
+- Phase change cooling (boiling)
+
+**Trade-offs:**
+- ✅ No structural modifications needed
+- ❌ Diminishing returns (conduction still dominates)
+- ❌ Increased pumping power and system complexity
+- ❌ Limited effectiveness due to bottleneck in conduction
+
+---
+
+#### Combined Approach
+
+**Design:** L = 2 cm, k = 5 W/(m·K), h = 500 W/(m²·K)
+
+Total resistance:
+```
+R"_total = 0.02/5 + 1/500 = 0.004 + 0.002 = 0.006 m²·K/W
+```
+
+Maximum heat flux:
+```
+q"_max = 180/0.006 = 30,000 W/m²
+```
+
+**Improvement:** 1733% increase (18.3× baseline)
+
+This demonstrates the synergistic effect of addressing multiple design parameters simultaneously.
+
+---
+
+## Summary of Results
+
+| Configuration | Max Heat Flux | Improvement |
+|--------------|---------------|-------------|
+| Baseline | 1,636 W/m² | — |
+| Reduced thickness (2 cm) | 6,000 W/m² | 267% |
+| Higher conductivity (k=5) | 6,000 W/m² | 267% |
+| Enhanced convection (h=500) | 1,765 W/m² | 8% |
+| **Combined approach** | **30,000 W/m²** | **1,733%** |
+
+---
+
+## Reflection
+
+This problem was one of the most valuable assignments in my heat transfer course because it taught me how to systematically decompose complex thermal systems into fundamental components and identify performance bottlenecks. The key insight—that conduction resistance accounted for 91% of the total thermal resistance—immediately revealed where optimization efforts should focus. This analytical approach of building thermal resistance networks parallels circuit analysis in electrical engineering and has broad applicability across mechanical systems. Rather than blindly attempting to improve every aspect of a design, I learned to quantify each component's contribution and prioritize improvements that address the true limiting factors.
+
+This systematic methodology will be directly applicable to my work in space instrumentation and hardware development. Thermal management is critical in spacecraft systems, where components must operate reliably across extreme temperature ranges with strict mass and power constraints. Whether designing thermal control systems for satellite instruments, optimizing heat dissipation in sensor packages, or developing testing protocols for space-qualified hardware, the ability to construct thermal models, identify dominant heat transfer modes, and evaluate design trades will be essential. Additionally, this problem reinforced the importance of verification—checking energy balance through multiple approaches and ensuring results align with physical intuition. These habits of careful analysis and systematic validation are foundational to reliable engineering practice in safety-critical aerospace applications.
+
+---
