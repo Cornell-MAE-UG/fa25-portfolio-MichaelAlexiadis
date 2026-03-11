@@ -32,45 +32,39 @@ A thin film heater is sandwiched between a thermally insulating wall and a L = 1
 
 The system can be modeled as two thermal resistances in series:
 
-Conduction resistance (per unit area):
-```
+**Conduction resistance (per unit area):**
+
 R"_cond = L/k = 0.1 m / 1 W/(m·K) = 0.1 m²·K/W
-```
 
-Convection resistance (per unit area):
-```
+**Convection resistance (per unit area):**
+
 R"_conv = 1/h = 1 / 100 W/(m²·K) = 0.01 m²·K/W
-```
 
-Total thermal resistance:
-```
+**Total thermal resistance:**
+
 R"_total = R"_cond + R"_conv = 0.1 + 0.01 = 0.11 m²·K/W
-```
 
 **Key insight:** Conduction through plastic accounts for 90.9% of total resistance, convection only 9.1%.
 
 **Heater surface temperature (x = 0):**
-```
+
 q" = (T₀ - T∞) / R"_total
 
-T₀ = T∞ + q" × R"_total
-T₀ = 20°C + (1000 W/m²)(0.11 m²·K/W)
+T₀ = T∞ + q" × R"_total  
+T₀ = 20°C + (1000 W/m²)(0.11 m²·K/W)  
 T₀ = 20 + 110 = 130°C
-```
 
 **Exterior surface temperature (x = L):**
-```
+
 q" = h(T_L - T∞)
 
-T_L = T∞ + q"/h
-T_L = 20°C + 1000/100
+T_L = T∞ + q"/h  
+T_L = 20°C + 1000/100  
 T_L = 30°C
-```
 
 **Verification using Fourier's law:**
-```
+
 q" = k(T₀ - T_L)/L = 1 × (130 - 30)/0.1 = 1000 W/m² ✓
-```
 
 **Answer:** T₀ = **130°C**, T_L = **30°C**
 
@@ -81,12 +75,11 @@ q" = k(T₀ - T_L)/L = 1 × (130 - 30)/0.1 = 1000 W/m² ✓
 **Constraint:** T₀,max = 200°C
 
 Using the thermal resistance network:
-```
-q"_max = (T₀,max - T∞) / R"_total
-q"_max = (200 - 20) / 0.11
-q"_max = 180 / 0.11
+
+q"_max = (T₀,max - T∞) / R"_total  
+q"_max = (200 - 20) / 0.11  
+q"_max = 180 / 0.11  
 q"_max = 1636 W/m²
-```
 
 **Verification:**
 - Surface temperature: T_L = 20 + 1636/100 = 36.4°C
@@ -104,16 +97,14 @@ Since conduction resistance dominates (91% of total), optimization should target
 
 **Design change:** L = 2 cm instead of 10 cm
 
-New resistances:
-```
-R"_cond = 0.02/1 = 0.02 m²·K/W
-R"_total = 0.02 + 0.01 = 0.03 m²·K/W
-```
+**New resistances:**
 
-Maximum heat flux:
-```
+R"_cond = 0.02/1 = 0.02 m²·K/W  
+R"_total = 0.02 + 0.01 = 0.03 m²·K/W
+
+**Maximum heat flux:**
+
 q"_max = 180/0.03 = 6000 W/m²
-```
 
 **Improvement:** 267% increase (3.67× baseline)
 
@@ -129,16 +120,14 @@ q"_max = 180/0.03 = 6000 W/m²
 
 **Design change:** k = 5 W/(m·K) instead of 1 W/(m·K), keeping L = 10 cm
 
-New resistances:
-```
-R"_cond = 0.1/5 = 0.02 m²·K/W
-R"_total = 0.02 + 0.01 = 0.03 m²·K/W
-```
+**New resistances:**
 
-Maximum heat flux:
-```
+R"_cond = 0.1/5 = 0.02 m²·K/W  
+R"_total = 0.02 + 0.01 = 0.03 m²·K/W
+
+**Maximum heat flux:**
+
 q"_max = 180/0.03 = 6000 W/m²
-```
 
 **Improvement:** 267% increase (3.67× baseline)
 
@@ -159,16 +148,14 @@ q"_max = 180/0.03 = 6000 W/m²
 
 **Design change:** h = 500 W/(m²·K) instead of 100 W/(m²·K)
 
-New resistances:
-```
-R"_conv = 1/500 = 0.002 m²·K/W
-R"_total = 0.1 + 0.002 = 0.102 m²·K/W
-```
+**New resistances:**
 
-Maximum heat flux:
-```
+R"_conv = 1/500 = 0.002 m²·K/W  
+R"_total = 0.1 + 0.002 = 0.102 m²·K/W
+
+**Maximum heat flux:**
+
 q"_max = 180/0.102 = 1765 W/m²
-```
 
 **Improvement:** Only 8% increase (1.08× baseline)
 
@@ -190,15 +177,13 @@ q"_max = 180/0.102 = 1765 W/m²
 
 **Design:** L = 2 cm, k = 5 W/(m·K), h = 500 W/(m²·K)
 
-Total resistance:
-```
-R"_total = 0.02/5 + 1/500 = 0.004 + 0.002 = 0.006 m²·K/W
-```
+**Total resistance:**
 
-Maximum heat flux:
-```
+R"_total = 0.02/5 + 1/500 = 0.004 + 0.002 = 0.006 m²·K/W
+
+**Maximum heat flux:**
+
 q"_max = 180/0.006 = 30,000 W/m²
-```
 
 **Improvement:** 1733% increase (18.3× baseline)
 
