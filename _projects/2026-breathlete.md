@@ -7,12 +7,6 @@ permalink: /projects/2026-breathlete/
 
 # Breathlete – Respiratory Performance Training Device
 
-## Course
-
-MAE 4340 – Advanced Product Design
-
----
-
 ## Project Overview
 
 Breathlete is an adjustable respiratory muscle training device designed to improve breathing strength and endurance for athletes. The project was completed as part of Cornell's Advanced Product Design course and followed the complete engineering product development process, from identifying customer needs through concept generation, engineering analysis, prototyping, intellectual property, and commercialization planning.

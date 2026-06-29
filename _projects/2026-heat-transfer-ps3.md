@@ -4,8 +4,6 @@ title: "MAE 3240 – Heat Transfer Problem Set 3"
 description: "Reflection and selected work from MAE 3240 Heat Transfer Problem Set 3."
 ---
 
-# MAE 3240 – Heat Transfer Problem Set 3
-
 ## Overview
 
 This project highlights Problem Set #3 from MAE 3240: Heat Transfer. The assignment focused on several core heat transfer concepts including transient conduction, internal heat generation, thermal resistance networks, and composite wall analysis. I selected this assignment because it tied together mathematical derivations with physically meaningful engineering applications, especially in the turbine blade thermal barrier coating problem.

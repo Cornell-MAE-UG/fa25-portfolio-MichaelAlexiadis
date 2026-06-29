@@ -6,8 +6,6 @@ image: /assets/images/blade_image.png
 render_with_liquid: true
 ---
 
-# Wind Turbine Blade Design Project
-
 **Course:** MAE 4272 – Fluids & Heat Transfer Laboratory  
 **Team:** Gregory Sharma, Jacob Gonzalez, Ata Zavaro, Michael Alexiadis  
 
