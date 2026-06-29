@@ -8,77 +8,144 @@ permalink: /cv/
 [Download my CV]({{ "/assets/CV.pdf" | relative_url }}) in PDF format.
 
 
-**Email:** [netID@cornell.edu](mailto:maa372@cornell.edu) | | | **Phone:** +631 358 1250
+**Email:** [maa372@cornell.edu](mailto:maa372@cornell.edu) | | | **Phone:** +631 358 1250
 
 ---
 
-#### Objective
-Aspiring mechanical engineering student with a strong foundation in hands-on hardware development, instrumentation, and system integration. Passionate about space instrumentation, scientific hardware, and reliability-focused engineering, and eager to apply design, testing, and analysis skills in real-world aerospace and research environments.
+#### Professional Summary
+
+Mechanical Engineering graduate from Cornell University with experience in scientific instrumentation, hardware development, manufacturing, testing, and systems engineering. My interests lie at the intersection of aerospace engineering and observational astronomy, with the long-term goal of developing spacecraft systems and scientific instruments for space exploration and astronomical observation. Through undergraduate research, multidisciplinary engineering projects, and manufacturing experience, I have developed a strong foundation in experimental hardware, data analysis, and collaborative engineering.
 
 ---
 
 #### Education
-- **Cornell University**  
-  *Bachelor of Science in Mechanical Engineering*  
-  GPA: 3.0/4.0 | Anticipated Graduation: May 2026
 
-- **West Babylon Senior High School**
-  *High School Diploma*
-  Graduation: June 2022
----
+**Cornell University**  
+*Bachelor of Science in Mechanical Engineering*  
+Graduated: May 2026
 
-#### Skills
-- **CAD & Simulation:** Autodesk Inventor, Fusion 360, ANSYS  
-- **Programming & Analysis:** Python, MATLAB, MATLAB Simulink  
-- **Computer Vision:** OpenCV, Cognex, Basler Pylon  
-- **Manufacturing & Prototyping:** Mill, Lathe, 3D Printing, CO₂ Laser Engraving  
-- **Version Control:** Git, GitHub  
-
----
-
-#### Projects
-- **Cornell Mars Rover Project – Astrotech Subteam**  
-  *Design and integration of mechanical and sensing systems for a field-deployed robotic rover*  
-  - Designed and fabricated mechanical components including auger-based soil collection hardware  
-  - Integrated cameras and environmental sensors (CO₂, humidity, temperature) with mechanical structures  
-  - Supported system testing, troubleshooting, and interdisciplinary integration with electrical and software teams  
-
-- **Automated Vision-Based Inspection System**  
-  *Development of a camera-based inspection workflow for quality control*  
-  - Built inspection pipelines using industrial cameras and computer vision tools  
-  - Evaluated hardware quality and consistency through image-based analysis  
-  - Supported production workflows by identifying defects and improving inspection repeatability  
+**Relevant Coursework**
+- Space Systems Architecture
+- Spaceflight Mechanics
+- Mechatronics
+- Fluid Mechanics
+- Heat Transfer
+- Fluids & Heat Transfer Laboratory
+- System Dynamics
+- Mechanical Synthesis
+- Mechanics of Materials
+- Structural Dynamics and Vibration Analysis
 
 ---
 
-#### Work Experience
-- **Havoly – Production Associate / QC Intern**  
-  June 2025 – August 2025  
-  - Supported manufacturing and quality-control operations for precision products  
-  - Assisted with inspection workflows and development of automated vision-based inspection tools  
-  - Worked with industrial cameras, laser engraving systems, and production documentation  
+#### Research Experience
 
-- **Space Imaging & Optical Systems Laboratory – Undergraduate Researcher**  
-  September 2024 – December 2024  
-  - Built MATLAB and Python tools for orbit modeling and visualization  
-  - Analyzed simulation datasets to support space systems research  
-  - Collaborated with graduate researchers on thrust-efficient orbit design  
+**Space Imaging & Optical Systems Laboratory (SIOS)**  
+*Undergraduate Researcher*  
+September 2024 – December 2024
+
+- Developed Python and MATLAB tools for orbital analysis and trajectory visualization.
+- Parsed and analyzed simulation datasets supporting low-thrust cislunar logistics research.
+- Implemented orbital mechanics calculations including periapsis determination and Jacobi constant computation.
 
 ---
 
-#### Achievements & Certifications
-- Eagle Scout, Boy Scouts of America  
-- NASA L’SPACE Mission Concept Academy – Workforce Development Mentee  
+#### Engineering Experience
+
+**Havoly**  
+*Production Associate & Quality Control Intern*  
+June 2025 – August 2025
+
+- Supported manufacturing and quality-control operations for precision laser-engraved products.
+- Developed OpenCV-based inspection workflows using industrial Basler cameras.
+- Designed CAD hardware supporting automated conveyor and inspection system.
+- Assisted manufacturing process improvements through automation and production optimization.
 
 ---
 
-#### Extracurricular Activities
-- Big Red Marching Band – Show Committee  
-- Cornell Assistive Technologies – Volunteer  
+#### Major Engineering Projects
+
+**Cornell Mars Rover Project Team — Astrotech Subteam**
+
+- Designed a flow-through cuvette used for spectroscopic analysis of regolith samples during the University Rover Challenge Science Mission.
+- Integrated CO₂, humidity, and temperature sensors into the scientific sample collection system.
+- Designed camera mounting hardware supporting operational visibility and scientific data collection.
+- Collaborated closely with electrical and software teams throughout development and integration.
+
+**NASA L'SPACE Mission Concept Academy**
+
+- Collaborated on a multidisciplinary team designing a lunar cave exploration mission concept.
+- Developed system requirements, trade studies, mission architecture, risk assessments, and budget analyses.
+- Utilized JMARS to evaluate candidate landing sites using topography, composition, and thermal inertia data.
+
+**Wind Turbine Experimental Testing**
+
+- Developed experimental procedures for a custom wind turbine.
+- Collected and analyzed wind tunnel data using LabVIEW.
+- Evaluated turbine performance through pressure measurements, efficiency calculations, and experimental validation.
+
+**Automated Vision Inspection System**
+
+- Developed computer vision workflows using Python and OpenCV.
+- Integrated industrial imaging hardware for automated quality inspection.
+- Improved manufacturing consistency through defect detection and automated inspection.
+
+---
+
+#### Technical Skills
+
+**CAD & Design**
+- Autodesk Inventor
+- Fusion 360
+
+**Programming & Analysis**
+- Python
+- MATLAB
+- Simulink
+- LabVIEW
+- R
+
+**Computer Vision**
+- OpenCV
+- Basler Pylon
+- Cognex Vision Systems
+
+**Engineering Software**
+- ANSYS
+- Git/GitHub
+- JMARS
+
+**Manufacturing**
+- Manual Mill
+- Manual Lathe
+- 3D Printing
+- CO₂ Laser Manufacturing
+- Mechanical Assembly
+- Hardware Integration
+
+---
+
+#### Leadership & Teaching
+
+**Engineering Learning Initiatives (ELI)**  
+*Peer Tutor & Academic Excellence Workshop Facilitator*
+
+- Facilitated collaborative workshops for Calculus and Physics courses.
+- Mentored undergraduate engineering students through active-learning instruction.
+
+---
+
+#### Honors & Activities
+
+- Eagle Scout, Boy Scouts of America
+- NASA L'SPACE Mission Concept Academy
+- Cornell Big Red Marching Band — Show Committee
+- Cornell Assistive Technologies — Volunteer
 
 ---
 
 #### References
+
 Available upon request.
 
 ---
